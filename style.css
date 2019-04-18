@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;   
+   }
+.container {
+    font-family: 'Ubuntu', sans-serif;    
+    width: 1920px;    
+    height: 1028px;
+    display: flex;   
+    background: #f1f1f1;
+   }
+.wrapper {
+    width: 992px;
+    height: 1028px;
+    padding-left: 192px;          
+}
+.logo {
+    margin-top: 96px;
+    width: 129px; 
+    height: 64px;
+}
+img{
+    width: 100%;
+}
+.headline {
+    font-weight: bold;
+    font-size: 50px;
+    color: #3c3c3b;
+    letter-spacing: 18px;
+    margin-top: 143px;   
+}
+.text-first {
+    margin-top: 60px;
+    font-size: 17px; 
+    color: #999998; 
+}
+.text-second {
+    font-size: 17px; 
+    color: #f39200;
+    margin-top: 27px;     
+}
+.text-third {
+    font-style: oblique;
+    color: #999998;  
+    font-size: 17px;  
+    margin-top: 46px;  
+}
+.form-name-first {
+    background: #ffff;
+    border-radius: 30px 30px 0 0;
+    width: 577px;
+    height: 111px; 
+    margin-top: 16px;       
+}
+.form-name-second {
+    background: #ffff;
+    border-radius: 0 0 30px 30px;
+    width: 577px;
+    height: 111px;
+    margin-top: 1px;
+    box-shadow: 0 10px 30px -4px #ece7e7;
+}
+label {
+    color: #999998;       
+    font-size: 16px;    
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 33px;
+ 
+}
+.input-text {    
+    color: #12a19a;
+    border: none;    
+    outline:none;
+    width: 300px; 
+    height: 30px;
+    font-size: 18px;      
+    margin-left: 50px;
+    margin-top: 36px;
+    position: absolute;
+  
+}
+.submit-text {
+    color: #12a19a;
+    background: #f1f1f1;
+    font-weight: bold;
+    border: none;
+    outline:none;
+    text-decoration: underline;
+    font-size: 16px; 
+    margin-top: 18px; 
+}
+.aside {
+    width: 928px;    
+    height: 1028;
+    background: #12a19a;
+    border-radius: 0 0 0 500px;
+    position:relative;
+}
+.foto {
+    width: 482px; 
+    height: 482px;     
+    position: absolute;
+    top: 188px;
+    left: 250px;
+}
+.aside-text {   
+    color: #12a19a;   
+    font-size: 15px; 
+    letter-spacing: 3px;
+    background: #ffff;
+    width: 288px;
+    height: 89px;    
+    right: 0;
+    bottom: 0px;  
+    position: absolute; 
+    border-radius: 20px 0 0 0;         
+}
+.aside-text p{
+    position:absolute; 
+    top:28px;
+    left: 65px;    
+    line-height: 20px;
+}

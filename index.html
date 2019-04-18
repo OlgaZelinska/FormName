@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8" />
+      <title>Form</title>
+      <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
+      <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+      <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+      <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+   </head>
+   <body>
+      <div id="root"> </div>
+      <script type="text/babel">
+         class FormName extends React.Component{
+         render() {
+             return (    
+                 <div className="container">
+                     <div className="wrapper">
+                         <h1 className="logo"><img src="image/logo.png" alt=""/></h1>
+                         <h2 className="headline">ADVERTISING <br/> MODULE</h2>
+                         <p className="text-first">Please login to your account</p>
+                         <p className="text-second">Login faild. Please try again </p>
+                         <form>                
+                             <div className="form-name-first"><label>UserName</label><br/><input type="text" name="login" className="input-text"/></div>
+                             <div className="form-name-second"><label>Password</label><br/><input type="password" name="password" className="input-text"/></div>
+                             <input type="submit" value="Forgot password" className="submit-text"/>            
+                         </form>
+                         <p className="text-third"> Release 01.00.00(2018-12-31) <br/> PADS4 - NDS Copyrught 2018 &copy; All Rights Reserved</p>
+                     </div>
+                     <div className="aside">
+                         <div className="foto"><img src="image/foto.png" alt=""/></div>
+                         <div className="aside-text">                
+                             <p>VISIT <strong> PADS4.COM </strong><br/>FOR MORE INFO</p>               
+                     </div> 
+                     </div>     
+                 </div>
+             );
+             }};
+             ReactDOM.render(       
+                 <FormName />,            
+                 document.getElementById('root')
+               );
+      </script>
+   </body>
+</html>
